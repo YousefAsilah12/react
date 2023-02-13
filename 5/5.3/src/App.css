@@ -1,0 +1,12 @@
+.colorsContainer{
+  display: flex;
+  flex-direction: row;;
+  gap: 2rem;
+}
+.main-container{
+  display: flex;;
+  flex-direction: column;;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;;
+}

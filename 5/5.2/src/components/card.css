@@ -1,0 +1,23 @@
+.card{
+  display: flex;;
+  justify-content: center;
+  align-content: center;
+}
+.container{
+
+
+  width: 30vw;
+  height: 20vh;
+  display: flex;;
+  flex-direction: column;;
+  text-align: center;
+  align-items: center;;
+}
+.img{
+  width: 20vw;
+  height: 40vh;
+}
+.buttons{
+  display: flex;;
+  flex-direction: row;
+}
