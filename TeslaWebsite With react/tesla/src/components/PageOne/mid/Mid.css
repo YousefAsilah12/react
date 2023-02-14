@@ -1,0 +1,65 @@
+.main .container {
+
+  margin: 0px auto;
+  width: fit-content;
+  text-align: center;
+  margin-bottom: 40vh;
+}
+
+.main .container .primary-text {
+
+  font-family: "Gotham SSm", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  display: block;
+  font-size: 40px;
+  letter-spacing: -0.6px;
+  line-height: 48px;
+  padding: 93.2px 0px 0px 0px;
+  scroll-behavior: smooth;
+  text-align: center;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  width: 959px;
+  z-index: auto;
+
+}
+.main .container p a {
+  color: white;
+  text-decoration: none;
+  border-bottom: 2px solid rgb(225, 225, 225);
+  font-family: "Gotham SSm", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  outline-offset: 2px;
+  position: relative;
+  text-align: start;
+
+}
+.main .container p {
+  color: rgb(255, 255, 255);
+  font-family: "Gotham SSm", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0px;
+  padding-bottom: 14px;
+  padding-inline-end: 24px;
+  padding-inline-start: 24px;
+  padding-top: 6px;
+  scroll-behavior: smooth;
+  text-align: center;
+
+
+
+}
+.main .container .not-prime {
+  font-family: serif;
+}
+
+.main .container p a:hover {
+  cursor: pointer;
+  border-bottom-color: rgb(255, 255, 255);
+  box-shadow: rgb(238, 238, 238) 0px 1px 0px 0px;
+  line-height: 20px;
+
+}
+
+

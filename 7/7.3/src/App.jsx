@@ -25,11 +25,11 @@ function App() {
   return (
     <div>
       <div className={flag ? "" : "exit"}>
-        <Form onFormFlag={handleForm} onData={handleData} ></Form>
+        <Form onFormFlag={handleForm} flag={flag} onData={handleData} ></Form>
       </div>
 
       <div className={!flag ? "" : "exit"}>
-        <Details data={form} onFlag={flagHandler}></Details>
+        <Details data={form}  flag={flag} onFlag={flagHandler}></Details>
       </div>
 
     </div>

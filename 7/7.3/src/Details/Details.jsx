@@ -9,12 +9,9 @@ import { useState } from "react";
 
 
 export function Details(props) {
-  const [flag,setflag]=useState();
-  
 
   function flagHandler(){
-    setflag(!flag)
-    props.onFlag(flag);
+    props.onFlag(!props.flag);
     console.log("details",flag)
 
   }

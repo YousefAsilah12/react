@@ -11,7 +11,6 @@ import { useState } from "react"
 import "./Form.css"
 export function Form(props) {
   const [formData, setFormData] = useState({})
-  const [formFlag,setFormFlag] = useState()
   
 
   function handleChange(e) {
@@ -21,8 +20,7 @@ export function Form(props) {
   function submite(e) {
     e.preventDefault();
     console.log(formData);
-    setFormFlag(!formFlag);
-    props.onFormFlag(formFlag);
+    props.onFormFlag(!props.flag);
     props.onData(formData)
   }
 
