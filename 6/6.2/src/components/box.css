@@ -1,0 +1,23 @@
+.container{
+  width: 300px;
+  height: 300px;
+  display: flex;;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 2rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;;
+  border: white solid 2px;
+}
+.box {
+  width: 80%;
+  height: 50%;
+  background-color: yellow;;
+
+}
+.hideBox{
+  display: none;
+}
+
+
