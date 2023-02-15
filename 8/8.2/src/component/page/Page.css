@@ -1,0 +1,15 @@
+.pageTemplate{
+  height: 100vh;
+  width: 100vw;
+  display: flex;;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;;
+}
+
+.cards{
+  display: flex;;
+  flex-direction: row;;
+  gap: 1rem;
+  justify-content: center;
+}

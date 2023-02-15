@@ -1,0 +1,39 @@
+
+
+
+
+
+
+.character-card{
+  width: 20%;
+  height: fit-content;
+  display: flex;;
+  flex-direction: column;;
+  justify-content: center;;;
+  align-items: center;
+  gap: 2rem;
+  border: black 1px solid;
+  border-radius: 20px;
+  padding: 0;
+}
+.character-card img{
+  width: 100%;
+}
+
+.character-buttons{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;;
+  padding: 1rem;
+}
+
+.buttons{
+  border: none;
+  border-radius: 10px;
+  padding: .3rem;
+}
