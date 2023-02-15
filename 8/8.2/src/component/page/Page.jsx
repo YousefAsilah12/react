@@ -15,15 +15,22 @@ import "./Page.css"
 import { Selected } from "../selected/Selected"
 export function Page() {
   let [selectedData, setSelected] = useState([]);
+  let [findData, setFindData] = useState(null);
 
   const max = 5;
   function setSelectedhandler(data) {
-    let find = selectedData.find(item => item.name === data.name)
-    if (selectedData.length < max && !find) {
-      setSelected(prevSelected => [...prevSelected, data]);
+    let find = selectedData.find(item => item.name === data.name);
+    if (find) {
+      setFindData(true);
+    } else {
+      setFindData(null); // reset to null when a new item is selected
+      if (selectedData.length < max) {
+        setSelected(prevSelected => [...prevSelected, data]);
+      }
     }
     console.log(selectedData);
   }
+
 
   return <div className="pageTemplate">
     <div className="header">
@@ -45,7 +52,7 @@ export function Page() {
     </div>
     <div>
       {selectedData.length >= max ? <h1>You cant select more than 5 </h1> : ""}
-      {find ? <h1>Item selected twice</h1> : null}
+      {findData ? <h1>Item selected twice</h1> : null}
     </div>
   </div>
 }

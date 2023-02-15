@@ -1,17 +1,25 @@
-.selected-contaienr{
+.selected-contaienr {
   display: flex;
   flex-direction: column;
   gap: .5rem;
-  color: yellow;;
+  color: yellow;
+  ;
   width: 20%;
+  height: 20vh;
   justify-content: center;
   align-items: center;
   background-color: chocolate;
   padding: 1rem;
 }
 
-.selected-contaienr img{
-width: 100%;
+.selected-contaienr img {
+  width: 100%;
+  height: 100%;
   border-radius: 50%;
-  
+
+}
+
+.selected-contaienr h1 {
+  text-align: center;
+  font-size: 1.5rem;
 }
