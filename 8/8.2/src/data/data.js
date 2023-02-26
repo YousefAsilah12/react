@@ -7,7 +7,7 @@ export const data = [
     pizzaToppings: [
       {
         name: "Pepperoni",
-        img: "https://media.istockphoto.com/photos/single-slice-of-pepperoni-meatisolated-onwhite-with-path-shot-from-picture-id1153708773?b=1&k=20&m=1153708773&s=170667a&w =0&h=1RvsBX4_XgkrBh2oKNKpdR08mFG5bBz06OkGk7qL4Fo=",
+        img: "https://cdn.shopify.com/s/files/1/0084/4513/2857/products/517TaMZo2DL_b62689d1-c98e-424a-ad52-ef22474edf25_500x500.jpg?v=1664377750",
       },
       {
         name: "Sausage",

@@ -5,6 +5,9 @@
   justify-content: space-around;
   flex-direction:column;
   align-items: center;;
+  text-align: center;
+  
+  background-color: #6000B2;
 }
 
 .cards{
@@ -12,4 +15,10 @@
   flex-direction: row;;
   gap: 1rem;
   justify-content: center;
+}
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }

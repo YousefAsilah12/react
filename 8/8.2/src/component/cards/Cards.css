@@ -14,7 +14,9 @@
   gap: 2rem;
   border: black 1px solid;
   border-radius: 20px;
-  padding: 0;
+  padding: 2rem;
+  background-color: #A7B200;
+  color:#8A00FF;
 }
 .character-card img{
   width: 100%;

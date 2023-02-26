@@ -53,6 +53,7 @@ export function Page() {
     <div>
       {selectedData.length >= max ? <h1>You cant select more than 5 </h1> : ""}
       {findData ? <h1>Item selected twice</h1> : null}
+      {selectedData.length===0 ? <h1>select your pizza type you can choose only 5 to add </h1> : ""}
     </div>
   </div>
 }
